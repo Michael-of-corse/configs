@@ -1,0 +1,6 @@
+version: '2'
+services:
+  ctf:
+    image: ctfd/ctfd:latest
+    ports:
+      - 8000:8000
